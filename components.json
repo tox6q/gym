@@ -17,5 +17,11 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide",
+  "registries": {
+    "@alpine": "https://alpine-registry.vercel.app/r/{name}.json",
+    "@tailark": "https://tailark.com/r/{name}.json",
+    "@magicui": "https://magicui.dev/r/{name}",
+    "@aceternity": "https://aceternity.com/registry/{name}.json"
+  }
 }
