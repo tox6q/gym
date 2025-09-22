@@ -10,7 +10,7 @@ export default function HeroSection() {
         <>
             <HeroHeader />
             <main className="overflow-hidden">
-                <section className="bg-linear-to-b to-muted from-background">
+                <section>
                     <div className="relative py-36">
                         <div className="relative z-10 mx-auto w-full max-w-5xl px-6">
                             <div className="md:w-1/2">
