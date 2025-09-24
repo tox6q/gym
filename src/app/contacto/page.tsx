@@ -5,7 +5,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
 import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { IconMail, IconPhone, IconMapPin, IconHeart, IconClock, IconMessageCircle } from '@tabler/icons-react'
+import { IconPhone, IconMapPin, IconHeart, IconClock, IconMessageCircle } from '@tabler/icons-react'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 

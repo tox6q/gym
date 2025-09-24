@@ -92,9 +92,9 @@ export const shadows = {
 export const getDesignToken = {
   color: (path: string) => {
     const keys = path.split('.')
-    let value: any = colors
+    let value: Record<string, unknown> = colors
     for (const key of keys) {
-      value = value[key]
+      value = value[key] as Record<string, unknown>
     }
     return value
   },

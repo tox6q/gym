@@ -1,4 +1,4 @@
-import { Activity, DraftingCompass, Mail, Zap } from 'lucide-react'
+import { Heart, Shield, Users, Award } from 'lucide-react'
 import Image from 'next/image'
 
 export default function FeaturesSection() {
@@ -8,32 +8,32 @@ export default function FeaturesSection() {
                 <div className="grid items-center gap-12 md:grid-cols-2 md:gap-12 lg:grid-cols-5 lg:gap-24">
                     <div className="lg:col-span-2">
                         <div className="md:pr-6 lg:pr-0">
-                            <h2 className="text-4xl font-semibold lg:text-5xl">Built for Scaling teams</h2>
-                            <p className="mt-6">Orrupti aut temporibus assumenda atque ab, accusamus sit, molestiae veniam laboriosam pariatur.</p>
+                            <h2 className="text-4xl font-semibold lg:text-5xl">Metodología Probada</h2>
+                            <p className="mt-6">Nuestro enfoque integral combina nutrición natural, suplementación específica y acompañamiento personalizado para lograr resultados extraordinarios.</p>
                         </div>
                         <ul className="mt-8 divide-y border-y *:flex *:items-center *:gap-3 *:py-3">
                             <li>
-                                <Mail className="size-5" />
-                                Email and web support
+                                <Heart className="size-5 text-primary" />
+                                Tratamiento natural y seguro
                             </li>
                             <li>
-                                <Zap className="size-5" />
-                                Fast response time
+                                <Shield className="size-5 text-primary" />
+                                Seguimiento médico especializado
                             </li>
                             <li>
-                                <Activity className="size-5" />
-                                Menitoring and analytics
+                                <Users className="size-5 text-primary" />
+                                Comunidad de apoyo activa
                             </li>
                             <li>
-                                <DraftingCompass className="size-5" />
-                                Architectural review
+                                <Award className="size-5 text-primary" />
+                                15+ años de experiencia comprobada
                             </li>
                         </ul>
                     </div>
                     <div className="border-border/50 relative rounded-3xl border p-3 lg:col-span-3">
                         <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
-                            <Image src="/payments.png" className="hidden rounded-[15px] dark:block" alt="payments illustration dark" width={1207} height={929} />
-                            <Image src="/payments-light.png" className="rounded-[15px] shadow dark:hidden" alt="payments illustration light" width={1207} height={929} />
+                            <Image src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="hidden rounded-[15px] dark:block" alt="payments illustration dark" width={1207} height={929} />
+                            <Image src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="rounded-[15px] shadow dark:hidden" alt="payments illustration light" width={1207} height={929} />
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ export default function ContactSection() {
         <section className="bg-muted py-15 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-4xl px-4 lg:px-0">
                 <h1 className="text-4xl font-semibold lg:text-5xl">Help us route your inquiry</h1>
-                <p className="text-muted-foreground mt-4 text-lg">We'll help you find the right plan and pricing for your business.</p>
+                <p className="text-muted-foreground mt-4 text-lg">We&apos;ll help you find the right plan and pricing for your business.</p>
                 <div className="mt-12 grid gap-12 lg:grid-cols-5">
                     <div className="grid grid-cols-2 lg:col-span-2 lg:block lg:space-y-12">
                         <div className="flex flex-col justify-between space-y-6">
@@ -42,7 +42,7 @@ export default function ContactSection() {
                         action=""
                         className="@container lg:col-span-3">
                         <Card className="p-8 sm:p-12">
-                            <h3 className="text-xl font-semibold">Let's get you to the right place</h3>
+                            <h3 className="text-xl font-semibold">Let&apos;s get you to the right place</h3>
                             <p className="mt-4 text-sm">Reach out to our sales team! We’re eager to learn more about how you plan to use our application.</p>
 
                             <div className="**:[&>label]:block mt-12 space-y-6 *:space-y-3">

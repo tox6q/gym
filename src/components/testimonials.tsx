@@ -16,7 +16,7 @@ export default function Testimonials() {
                         </CardHeader>
                         <CardContent>
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                <p className="text-xl font-medium">"Bajé 17 kg en un mes. El diagnóstico era cáncer con daños en hígado y riñones. Tenía creatinina en 2.5, era prospecto para diálisis. <br /><br />No podía ni dormir por los dolores impresionantes. No podía caminar solo, tenía que salir agarrado de mis hijos. Estaba amarillo. <br /><br />En dos meses, sin medicamentos, solo con vitaminas y dieta: la creatinina bajó a 0.9, los riñones y el hígado están perfectamente bien. Hoy me dicen 'te ves fenomenal, a todo dar.' Soy otro."</p>
+                                <p className="text-xl font-medium">&ldquo;Bajé 17 kg en un mes. El diagnóstico era cáncer con daños en hígado y riñones. Tenía creatinina en 2.5, era prospecto para diálisis. <br /><br />No podía ni dormir por los dolores impresionantes. No podía caminar solo, tenía que salir agarrado de mis hijos. Estaba amarillo. <br /><br />En dos meses, sin medicamentos, solo con vitaminas y dieta: la creatinina bajó a 0.9, los riñones y el hígado están perfectamente bien. Hoy me dicen &apos;te ves fenomenal, a todo dar.&apos; Soy otro.&rdquo;</p>
 
                                 <div className="flex items-center justify-between">
                                     <div>

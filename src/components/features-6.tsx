@@ -12,21 +12,21 @@ export default function FeaturesSection() {
                 <div className="px-3 pt-3 md:-mx-8">
                     <div className="aspect-88/36 mask-b-from-75% mask-b-to-95% relative">
                         <Image
-                            src="/mail-upper.png"
+                            src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             className="absolute inset-0 z-10"
                             alt="payments illustration dark"
                             width={2797}
                             height={1137}
                         />
                         <Image
-                            src="/mail-back.png"
+                            src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             className="hidden dark:block"
                             alt="payments illustration dark"
                             width={2797}
                             height={1137}
                         />
                         <Image
-                            src="/mail-back-light.png"
+                            src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             className="dark:hidden"
                             alt="payments illustration light"
                             width={2797}
