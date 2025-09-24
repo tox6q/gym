@@ -11,8 +11,8 @@ export default function LandingPage() {
       <Navbar />
       <HeroSection />
       <Features />
-      <StatsFour />
       <Testimonials />
+      <StatsFour />
       <Footer />
     </div>
   )
